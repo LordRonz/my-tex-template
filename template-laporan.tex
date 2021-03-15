@@ -1,0 +1,108 @@
+\documentclass[a4paper,12pt]{article}
+%\documentclass[a4paper,10pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+\usepackage[margin=2.5cm, includefoot]{geometry}
+\usepackage{amsfonts, amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{indentfirst}
+\usepackage{etoolbox}
+\AtBeginEnvironment{align}{\setcounter{equation}{0}}
+% Header And Footer stuff
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[R]{ \thepage\ }
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+%
+\renewcommand*\contentsname{Daftar Isi}
+\captionsetup[figure]{name=Gambar}
+
+\onehalfspacing
+\titleformat{\section}{\Large\normalfont\bfseries\filcenter}{\thesection.}{0.8em}{}
+\titleformat{\subsection}{\large\normalfont\bfseries}{\thesubsection}{0.8em}{}
+\renewcommand{\thesection}{\arabic{section}}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+\urlstyle{rm}
+
+\title{}
+\author{}
+\date{}
+
+\pdfinfo{%
+  /Title    ()
+  /Author   ()
+  /Creator  ()
+  /Producer ()
+  /Subject  ()
+  /Keywords ()
+}
+
+\begin{document}
+\begin{titlepage}
+\begin{center}
+ \textbf{ESAI}
+ \vspace{1cm}
+\end{center}
+\begin{figure}[H]
+ \centering
+\includegraphics[width=0.5\textwidth]{its}\\
+\end{figure}
+\vspace{3cm}
+\begin{center}
+\line(1,0){300}
+
+\textbf{Your Mom Gae}
+
+
+Institut Teknologi Sepuluh Nopember
+\\[1cm]
+Jane Doe
+
+069420666136969
+
+Dibuat menggunakan \LaTeX\
+
+\line(1,0){300}\\
+\end{center}
+\end{titlepage}
+\tableofcontents
+\thispagestyle{empty}
+\cleardoublepage
+\setcounter{page}{1}
+ \section{\textbf{PENDAHULUAN}}
+\vspace{1cm}
+
+\subsection{Latar Belakang}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod fermentum orci, sit amet posuere magna rutrum id. Donec tellus neque, interdum vel lacus nec, tempus consectetur felis. Donec mattis ullamcorper nibh ut cursus. Aenean lacinia pharetra tempor. Praesent eget semper orci. Praesent condimentum ex a quam malesuada, sed mollis lacus congue. Sed tristique sodales lacus in blandit. Duis suscipit dui nec lacus tristique feugiat. Nullam ac leo euismod, vestibulum nisl ut, tincidunt dolor. Pellentesque sed risus laoreet, imperdiet orci et, euismod urna. Donec vel risus ac massa luctus egestas. Curabitur vel lectus eget lacus porttitor lacinia non ut quam. Mauris vitae diam sit amet massa convallis posuere. Etiam feugiat vulputate eros at sollicitudin. Quisque faucibus mi nec velit lacinia volutpat. Ut sollicitudin commodo nunc ac facilisis.\\
+Donec aliquam lacus sed ultricies rutrum. Curabitur dignissim, nisi in convallis laoreet, lacus enim ornare massa, nec bibendum est sapien vitae diam. Mauris lacinia bibendum urna, et tristique lorem laoreet non. Ut porttitor lobortis eros lacinia dignissim. Nulla pellentesque, felis vitae commodo varius, quam quam ullamcorper turpis, et consectetur nunc odio quis nunc. Duis suscipit tellus eget eros dictum, consequat fermentum leo ultricies. Cras sit amet ultrices ligula. Nunc eget mauris aliquet, mollis ligula non, rutrum eros. Donec venenatis non mauris at aliquet. Donec tortor libero, venenatis at lorem euismod, convallis condimentum dolor. Quisque quis ullamcorper est.
+
+\subsection{Tujuan}
+Etiam lacus est, dignissim eleifend lectus vel, volutpat vestibulum massa. Proin viverra orci eget tortor facilisis scelerisque. Nam mollis rutrum erat vitae mattis. Aliquam consectetur semper sem, nec ullamcorper nisi porttitor semper. Maecenas arcu ligula, laoreet id luctus eu, pulvinar non ante. Mauris orci sapien, elementum rhoncus massa in, interdum interdum lectus. Fusce condimentum tortor augue, et pellentesque lacus dictum a. Vivamus diam urna, ullamcorper sed metus a, pulvinar dapibus mi. Mauris gravida lectus vitae ante faucibus, sed imperdiet neque sollicitudin. Nam tincidunt libero sit amet augue commodo pellentesque. Proin id leo hendrerit, consectetur nunc quis, laoreet neque. Quisque eu sollicitudin justo.
+
+\subsection{Metodologi}
+Praesent non elit vel nisi tempor hendrerit. Ut eu tempor felis, ut euismod tellus. Fusce neque ipsum, tincidunt vel lectus vel, malesuada consequat turpis. Quisque auctor, odio in posuere vestibulum, justo erat suscipit magna, a tincidunt odio urna ornare ligula. Aenean nec sodales nibh. Quisque dictum cursus turpis ut rutrum. Morbi accumsan lorem sit amet elit suscipit, eget aliquet lectus suscipit. Proin molestie porta porttitor. Aliquam ornare nisl eget erat iaculis, nec fermentum felis lacinia. Donec eu ante et augue tincidunt blandit id vel arcu. Sed at magna mi. Nullam mauris dui, feugiat tempus pretium in, varius dictum urna. Suspendisse volutpat risus at fermentum porta. In vel dolor quam. Sed lacinia mollis egestas.
+\pagebreak
+\section{\textbf{ISI}}
+Phasellus iaculis, lorem at rhoncus rutrum, eros ex molestie orci, nec scelerisque libero metus egestas justo. Proin at neque vitae lacus placerat dapibus. Donec ultrices risus egestas neque dapibus volutpat. Vestibulum pulvinar arcu vehicula lectus laoreet, quis egestas dolor vestibulum. Suspendisse at maximus erat, ut dictum ante. Praesent ornare egestas massa non maximus. Aenean dui nibh, egestas ut ultrices vitae, finibus sed felis. Cras faucibus maximus hendrerit. Nulla volutpat vel metus vel imperdiet. Pellentesque odio elit, porttitor vel dolor in, auctor aliquet eros. Curabitur dignissim ligula ligula, semper suscipit dolor rhoncus quis. Ut gravida dignissim nibh nec euismod. Pellentesque pellentesque lectus justo, et bibendum massa finibus quis.
+
+Nunc tristique porttitor tellus et tristique. Aenean quis arcu ac mauris vestibulum condimentum. Proin lacinia risus mi, ac eleifend urna gravida ac. Aliquam dictum consectetur arcu. Sed ex turpis, laoreet nec volutpat id, finibus ac libero. Cras felis metus, blandit a suscipit vel, tincidunt eget sem. Sed convallis enim non lorem maximus pretium et id nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse aliquam mattis turpis, eu facilisis libero sodales a. Nullam nisi mauris, fermentum quis finibus molestie, finibus ut ligula. Fusce sed enim sapien. Donec lacinia at ipsum non eleifend. Fusce eget est at nibh cursus varius sed id lectus.
+
+Fusce ac tincidunt nisi. Duis ut dui nisl. Suspendisse eu enim non diam consectetur fringilla id vitae erat. Donec gravida porta sem vel porttitor. Donec interdum magna facilisis rutrum pulvinar. Fusce convallis nisl in tellus pellentesque, eget semper leo molestie. Nunc semper pharetra diam non pretium. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis turpis augue, semper et tellus eget, maximus rhoncus augue. Sed molestie ligula congue justo porttitor, eget dapibus nisl efficitur. Etiam semper, purus in malesuada sollicitudin, sem ex mattis odio, a facilisis risus sem ac lorem. Nam gravida faucibus sapien. Aliquam eleifend ullamcorper nisi, quis tristique lectus vehicula nec. Mauris tincidunt, ex a convallis accumsan, est orci rutrum ipsum, id dignissim mauris quam lobortis nunc. Donec eleifend erat purus, vel iaculis lectus luctus vel.
+\pagebreak
+\section{\textbf{KESIMPULAN}}
+Mauris at nisl nec ante pellentesque fringilla. Praesent eu rutrum urna, a maximus eros. Proin at turpis at mauris feugiat mollis vitae eu nibh. Nunc libero neque, fermentum nec arcu in, tincidunt lacinia nibh. Nunc mollis tempus eleifend. Nullam augue massa, aliquam eget lobortis nec, mattis vel nunc. Aliquam aliquam sapien id massa volutpat, at maximus orci commodo. Donec id mollis ex, vel sodales orci. Ut ligula nisl, sodales sed gravida quis, viverra in elit. Vivamus tempus rutrum bibendum. Proin malesuada nunc ac sodales ullamcorper.
+\end{document}
